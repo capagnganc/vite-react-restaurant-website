@@ -1,0 +1,15 @@
+.bg-image-1{
+    background-image: url('/assets/restaurant-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.body-content{
+    height: 1000px;
+    background-color: aqua;
+}

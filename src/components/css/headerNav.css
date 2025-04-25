@@ -1,0 +1,25 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(234, 224, 206);
+}
+
+.appLogo{
+    width: 4.5em;
+    position: absolute;
+    top: 0.8em;
+    left: 1.5em;
+}
+
+.rowLinks{
+    display: grid;
+    column-gap: 2.5em;
+    grid-template-columns: 5em 5em;
+    position: absolute;
+    right: 3.45em;
+    top: 2.4em;
+}
+
+.textColor{
+    color: rgb(67, 66, 64);
+}
