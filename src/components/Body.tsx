@@ -1,7 +1,7 @@
 import react from "react";
 import './css/body.css'
 
-const Body = () => {
+const AboutUs = () => {
     return(
         <div className="container-sm body-content">
             
@@ -12,11 +12,11 @@ const Body = () => {
 // Optional const that can be export
 const BG_1 = () => {
     return(
-        <div className="bg-image-1"></div>
+        <div className="img-bg">
+            <img className="img-fit img-fluid" src="/assets/restaurant-bg.png" alt="restaurant-bg"/>
+        </div>
     );
 };
 
-export default Body;
-
 // Optional export if needed
-export {BG_1};
+export {BG_1, AboutUs};
